@@ -53,7 +53,7 @@ public class tugas_week_6{
             System.out.println("4. Algoritma dn Pemograman");
             System.out.println("5. Rekayasa Perangkat Lunak");
             System.out.println("Silahkan Pilih Mata Kuliah dengan Nilai Diatas 75");
-            System.out.println("Masukkan Pilihan Mata Kuliah Anda:");
+            System.out.println("Masukkan Pilihan Mata Kuliah Anda:(1/2/3/4/5)");
             int pilihan = go.nextInt();
             go.nextLine()
 
