@@ -42,6 +42,11 @@ public class tugas_week_6{
         } else {
             predikat = "C(Kurang)";
             System.out.println("Predikat Anda Adalah :" + predikat);
+
+        if (predikat.equals("A(Sangat Baik)")|| predikat.equals("AB(Baik Sekali)")){
+            System.out.println("Selamat Anda layak melanjutkan proses seleksi");
+        } else {
+            System.out.println("Anda Tidak lolos proses seleksi");
         }
     }
 }
