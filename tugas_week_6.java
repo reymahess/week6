@@ -55,7 +55,7 @@ public class tugas_week_6{
             System.out.println("Silahkan Pilih Mata Kuliah dengan Nilai Diatas 75");
             System.out.println("Masukkan Pilihan Mata Kuliah Anda:(1/2/3/4/5)");
             int pilihan = go.nextInt();
-            go.nextLine()
+            go.nextLine();
 
             switch (pilihan) {
                 case 1:
