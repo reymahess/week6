@@ -56,6 +56,18 @@ public class tugas_week_6{
             System.out.println("Masukkan Pilihan Mata Kuliah Anda:");
             int pilihan = go.nextInt();
             
+            switch (pilihan) {
+                case 1:
+                    if(strukturData >= 75){
+                        System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Struktur Data");
+                    } else {
+                        System.out.println("Anda Tidak Lulus Mata Kuliah Struktur Data");
+                    }
+                    break;
+            
+                default:
+                    break;
+            }
 
         } else {
             System.out.println("Anda Tidak lolos proses seleksi");
