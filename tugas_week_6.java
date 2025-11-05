@@ -55,7 +55,8 @@ public class tugas_week_6{
             System.out.println("Silahkan Pilih Mata Kuliah dengan Nilai Diatas 75");
             System.out.println("Masukkan Pilihan Mata Kuliah Anda:");
             int pilihan = go.nextInt();
-            
+            go.nextLine()
+
             switch (pilihan) {
                 case 1:
                     if(strukturData >= 75){
@@ -71,6 +72,26 @@ public class tugas_week_6{
                         System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Pemograman Berorientasi Objek");
                     }
                     break;
+                case 3:
+                    if(basisData >= 75){       
+                        System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Basis Data");
+                    } else {
+                        System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Basis Data");
+                    }
+                    break;
+                case 4:
+                    if(algoritma >= 75){
+                        System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Algoritma dan Pemograman");
+                    } else {
+                        System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Algoritma dan Pemograman");
+                    }
+                    break;
+                case 5:
+                    if(rpl >= 75){
+                        System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Rekayasa Perangkat Lunak");
+                    } else {
+                        System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Rekayasa Perangkat Lunak");
+                    }
                 default:
                     break;
             }
