@@ -29,14 +29,19 @@ public class tugas_week_6{
         String predikat;
         if(rataipk >= 3.75){
             predikat = "A(Sangat Baik)";
+            System.out.println("Predikat Anda Adalah :" + predikat);
         } else if (rataipk >= 3.50 && rataipk < 3.75){
             predikat = "AB(Baik Sekali)";
+            System.out.println("Predikat Anda Adalah :" + predikat);
         } else if (rataipk >= 2.5 && rataipk < 3.50){
             predikat = "B(Baik)";
+            System.out.println("Predikat Anda Adalah :" + predikat);
         } else if (rataipk >= 2.0 && rataipk < 2.5){
             predikat = "BC(Cukup Baik)";
+            System.out.println("Predikat Anda Adalah :" + predikat);
         } else {
             predikat = "C(Kurang)";
+            System.out.println("Predikat Anda Adalah :" + predikat);
         }
     }
 }
